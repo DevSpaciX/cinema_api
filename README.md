@@ -34,5 +34,5 @@ python manage.py runserver
 - Create user via /api/user/register/
 - Get user token via /api/user/token/
 - Authorize with it on /api/doc/swagger/ OR 
-- Install ModHeader extention and create Reqest header with value ```Bearer <Your access tokekn>```
+- Install ModHeader extention and create Request header with value ```Bearer <Your access tokekn>```
 
