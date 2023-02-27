@@ -25,13 +25,14 @@ python manage.py runserver
 ```
 ## Run with Docker:
 - Docker should be installed
-
-docker-compose build
-docker-compose up
+```
+- docker-compose build
+- docker-compose up
+```
 
 ## Getting access:
 - Create user via /api/user/register/
 - Get user token via /api/user/token/
 - Authorize with it on /api/doc/swagger/ OR 
-- Install ModHeader extention and create Reqest header with value ```Bearer <Your access tokekn>
+- Install ModHeader extention and create Reqest header with value ```Bearer <Your access tokekn>```
 
